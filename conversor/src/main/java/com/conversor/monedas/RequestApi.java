@@ -9,8 +9,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 public class RequestApi {
-    private String busqueda;
-    public float obtenerData(String busqueda,float valor,String cambio) {
+    
+    public double obtenerData(String busqueda,double valor,String cambio) {
 
         String url = "https://v6.exchangerate-api.com/v6/5d104d91e71fd6d96acc8a8c/latest/" + busqueda;
         HttpClient client = HttpClient.newHttpClient();
@@ -29,11 +29,11 @@ public class RequestApi {
             }
             else {
                 System.out.println("Error1: " + response.statusCode());;
-                return 0.0f;
+                return 0.0;
             }
         } catch (Exception e) {
             System.out.println("Error2: " + e.getMessage());
-            return 0.0f;
+            return 0.0;
             }            
             
     }
