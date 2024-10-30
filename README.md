@@ -114,23 +114,35 @@ La clase `Main` es el punto de entrada de la aplicación del conversor de moneda
 2. **Ver el Menú de Opciones**:
    - Se presenta un menú con varias conversiones disponibles. Por ejemplo:
   
-   **************************************************************
-   Bienvenido al conversor de monedas...
-   A continuación tienes las siguientes conversiones disponibles:
-   1) Dólar a Peso Argentino
-   2) Peso Argentino a Dólar
-   3) Dólar a Real brasileño
-   4) Real brasileño a Dólar
-   5) Dólar a Peso colombiano
-   6) Peso colombiano a Dólar
-   7) Dólar a Nuevo Sol
-   8) Nuevo Sol a Dólar
-   9) Ver historial de conversiones
+   `**************************************************************`
 
-   10) Salir
+   `Bienvenido al conversor de monedas...`
 
-   Elige una opción válida:
-   **************************************************************
+   `A continuación tienes las siguientes conversiones disponibles:`
+
+   `1) Dólar a Peso Argentino`
+
+   `2) Peso Argentino a Dólar`
+
+   `3) Dólar a Real brasileño`
+
+   `4) Real brasileño a Dólar`
+
+   `5) Dólar a Peso colombiano`
+
+   `6) Peso colombiano a Dólar`
+
+   `7) Dólar a Nuevo Sol`
+
+   `8) Nuevo Sol a Dólar`
+
+   `9) Ver historial de conversiones`
+
+   `0) Salir`
+
+   `Elige una opción válida:`
+
+   `**************************************************************`
 
 
 3. **Seleccionar una Opción**:
@@ -161,4 +173,6 @@ La clase `Main` es el punto de entrada de la aplicación del conversor de moneda
 8. **Continuar o Salir**:
 - El usuario puede presionar Enter para continuar, elegir otra conversión o ingresar `0` para salir de la aplicación:
 
-    `Saliendo... Gracias por usar el conversor de monedas.`
+    `Saliendo... `
+    
+    `Gracias por usar el conversor de monedas.`
